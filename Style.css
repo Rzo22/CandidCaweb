@@ -1,0 +1,126 @@
+body{
+	font-family: "Century Gothic", Verdana, sans-serif;
+	text-align: center;
+	background-image: url("BellePhoto.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+h1{
+	display: inline;
+	text-align: center;
+	background: -webkit-linear-gradient(left, #FFAB99, #FC7E63);
+	background: -o-lineargradient(right, #FFAB99, #FC7E63);
+	background: lineargradient(to right, #FFAB99, #FC7E63);
+	height: 50px;
+	padding-top: 50px;
+	width: 30%;
+	padding: 10px;
+	padding-left: 20px;
+	border: 10px solid black;
+	border-style: ridge;
+	border-radius: 15px;
+	border-top: 0px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+img{
+	display: inline;
+	background-color: white;
+	width: 400px;
+	padding: 10px;
+	border: 1px;
+	border-color: white;
+	box-shadow: 0px 0px 17px #BBB;
+}
+
+span{
+	background-color: tomato;
+}
+
+
+.BoiteTitre{
+	text-align: left;
+	background: -webkit-linear-gradient(left, #5DDAFF, #22CDFF);
+	background: -o-lineargradient(right, #5DDAFF, #22CDFF);
+	background: -moz-lineargradient(right, #5DDAFF, #22CDFF);
+	background: lineargradient(to right, #5DDAFF, #22CDFF);
+	width: 15%;
+	padding: 5px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border: 10px solid black;
+	border-style: ridge;
+	margin: 40px;
+	z-index: 10000;
+}
+
+.textelien{
+	font-weight: 400px;
+	font-size: 50px;
+	colour: #00FBFF;
+}
+
+.pexplication{
+	text-align: left;
+	background: -webkit-linear-gradient(left, #E3E3E3, #D2D2D2);
+	background: -o-lineargradient(right, #E3E3E3, #D2D2D2);
+	background: -moz-lineargradient(right, #E3E3E3, #D2D2D2);
+	background: lineargradient(to right, #E3E3E3, #D2D2D2);
+	width: 80%;
+	padding: 10px;
+	padding-left: 20px;
+	border: 7px solid black;
+	border-style: ridge;
+	border-radius: 20px;
+	margin: 100px;
+	margin-top: -70px;
+	z-index: 15;
+}
+
+.textleg{
+	color: white;
+	font-weight: bolder;
+	opacity: 0;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.imgleg{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	-webkit-transition: width 1s;
+	-moz-transition: width 1s;
+	-o-transition: width 1s;
+	transition: width 1s;
+	
+}
+
+.imgleg:hover{
+	width: 500px;
+	opacity: 1;
+}
+
+.imgleg:hover .textleg{
+	width: 500px;
+	opacity: 1;
+}
+
+#infographie{
+	width: 200px;
+}
+
+#miniature{
+	width: 450px;
+}
